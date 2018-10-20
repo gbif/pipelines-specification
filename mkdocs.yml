@@ -1,0 +1,72 @@
+site_name: 'Biodiversity Data Pipelines'
+
+repo_name: gbif/pipelines
+repo_url: https://github.com/gbif/pipelines
+edit_uri: ""
+
+nav:
+  - Home:
+    - Overview: index.md
+    - Architecture: architecture.md
+    - Roadmap: roadmap.md
+    - Download: index2.md
+    - Release notes: index2.md
+    - License: https://www.apache.org/licenses/LICENSE-2.0
+    - Sample: sample.md
+  - Ingress:
+    - Overview: ingress/issues.md
+    - Input formats: ingress/issues.md
+    - Identifiers: ingress/issues.md
+    - Parsing: ingress/issues.md
+    - Controlled vocabularies: ingress/issues.md
+    - Taxonomy: ingress/issues.md
+    - Date/Time: ingress/issues.md
+    - Location: ingress/issues.md
+    - Fitness for use: ingress/issues.md
+    - Political boundaries: ingress/issues.md
+    - Habitats: ingress/issues.md
+    - Protected areas: ingress/issues.md
+    - Environmental layers: ingress/issues.md
+    - Sensitive data: ingress/issues.md
+    - Traits: ingress/issues.md
+    - Multimedia: ingress/issues.md
+    - Sequences: ingress/issues.md
+    - Outlier detection: ingress/issues.md
+    - Data quality flags: ingress/issues.md
+  - Indexing:
+    - Overview: indexing/issues.md
+    - Elasticsearch: indexing/issues.md
+    - Solr: indexing/issues.md
+  - Egress:
+    - Overview: egress/issues.md
+    - Field delimited formats: egress/issues.md
+    - Data packages (DwC-A): egress/issues.md
+    - Geospatial formats: egress/issues.md
+    - Essential biodiversity variables (EBVs): egress/issues.md
+    - Adhoc SQL: egress/issues.md
+  - Community:
+    - Overview: community/overview.md
+    - Tutorials: community/overview.md
+    - Contributor guide: community/overview.md
+    - Build and Releasing: community/overview.md
+    - People: community/overview.md
+
+theme:
+  name: 'material'
+  logo:
+    icon: description
+    favicon: description
+  palette:
+    primary: indigo
+    accent: indigo
+  font:
+    text: Roboto
+    code: Roboto Mono
+  feature:
+    tabs: true
+
+markdown_extensions:
+  - codehilite
+  - admonition
+  - toc:
+      permalink: true
