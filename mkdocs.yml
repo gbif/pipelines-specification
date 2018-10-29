@@ -6,14 +6,14 @@ edit_uri: ""
 
 nav:
   - Home:
-    - Overview: overview.md
+    - About: index.md
     - Architecture: architecture.md
     - Roadmap: roadmap.md
     - Download: download.md
     - Release notes: release-notes.md
     - License: https://www.apache.org/licenses/LICENSE-2.0
   - Ingress:
-    - Overview: ingress/overview.md
+    - Overview: ingress/index.md
     - Input formats: ingress/input-formats.md
     - Identifiers: ingress/identifiers.md
     - Basic parsing: ingress/basic-parsing.md
@@ -29,18 +29,18 @@ nav:
     - Outlier detection: ingress/outlier-detection.md
     - Data quality flags: ingress/data-quality-flags.md
   - Indexing:
-    - Overview: indexing/overview.md
+    - Overview: indexing/index.md
     - Elasticsearch: indexing/elastic-search.md
     - Solr: indexing/solr.md
   - Egress:
-    - Overview: egress/overview.md
+    - Overview: egress/index.md
     - Field delimited formats: egress/field-delimited-formats.md
     - Data packages (DwC-A): egress/data-packages.md
     - Geospatial formats: egress/geospatial-formats.md
     - Essential biodiversity variables (EBVs): egress/ebvs.md
     - Adhoc SQL: egress/sql.md
   - Community:
-    - Overview: community/overview.md
+    - Overview: community/index.md
     - Tutorials: community/tutorials.md
     - Contributor guide: community/contributor-guide.md
     - Build and Releasing: community/build-release.md
@@ -48,9 +48,7 @@ nav:
 
 theme:
   name: 'material'
-  logo:
-    icon: description
-    favicon: description
+  logo: 'images/GBIF-2015-mark.svg'
   palette:
     primary: indigo
     accent: indigo

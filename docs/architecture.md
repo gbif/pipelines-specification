@@ -1,6 +1,6 @@
 # About
 
-![Architecture](img/index.svg)
+![Architecture](images/index.svg)
 
 ``` MySQL
 SELECT count(*) FROM occurrence
