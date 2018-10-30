@@ -1,4 +1,4 @@
-site_name: 'Biodiversity Data Pipelines'
+site_name: 'GBIF Data pipelines'
 
 repo_name: gbif/pipelines
 repo_url: https://github.com/gbif/pipelines

@@ -1,5 +1,7 @@
 # About
 
+![Architecture](images/primary.png)
+
 ![Architecture](images/index.svg)
 
 ``` MySQL
