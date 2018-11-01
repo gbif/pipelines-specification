@@ -1,8 +1,5 @@
 # Data pipelines <small>for biodiversity data</small>
 
-!!! warning "Disclosure"
-    Data pipelines is a new project under development. Please pay attention to the roadmap.
-
 ## Process biodiversity data 
 
 Data pipelines provides components to integrate, interpret and transform biodiversity data.
