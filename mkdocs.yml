@@ -12,33 +12,33 @@ nav:
     - Download: download.md
     - Release notes: release-notes.md
     - License: https://www.apache.org/licenses/LICENSE-2.0
-  - Ingress:
-    - Overview: ingress/index.md
-    - Input formats: ingress/input-formats.md
-    - Identifiers: ingress/identifiers.md
-    - Basic parsing: ingress/basic-parsing.md
-    - Controlled vocabularies: ingress/controlled-vocabularies.md
-    - Taxonomy: ingress/taxonomy.md
-    - Date/Time: ingress/date-time.md
-    - Location: ingress/location.md
-    - Fitness for use: ingress/fitness-for-use.md
-    - Invasive species: ingress/invasive-species.md
-    - Traits: ingress/traits.md
-    - Multimedia: ingress/multimedia.md
-    - Sequences: ingress/sequences.md
-    - Outlier detection: ingress/outlier-detection.md
-    - Data quality flags: ingress/data-quality-flags.md
+  - Preparation:
+    - Overview: preparation/index.md
+    - Input formats: preparation/input-formats.md
+    - Identifiers: preparation/identifiers.md
+    - Basic parsing: preparation/basic-parsing.md
+    - Controlled vocabularies: preparation/controlled-vocabularies.md
+    - Taxonomy: preparation/taxonomy.md
+    - Date/Time: preparation/date-time.md
+    - Location: preparation/location.md
+    - Fitness for use: preparation/fitness-for-use.md
+    - Invasive species: preparation/invasive-species.md
+    - Traits: preparation/traits.md
+    - Multimedia: preparation/multimedia.md
+    - Sequences: preparation/sequences.md
+    - Outlier detection: preparation/outlier-detection.md
+    - Data quality flags: preparation/data-quality-flags.md
   - Indexing:
     - Overview: indexing/index.md
     - Elasticsearch: indexing/elastic-search.md
     - Solr: indexing/solr.md
-  - Egress:
-    - Overview: egress/index.md
-    - Field delimited formats: egress/field-delimited-formats.md
-    - Data packages (DwC-A): egress/data-packages.md
-    - Geospatial formats: egress/geospatial-formats.md
-    - Essential biodiversity variables (EBVs): egress/ebvs.md
-    - Adhoc SQL: egress/sql.md
+  - Formats:
+    - Overview: formats/index.md
+    - Field delimited formats: formats/field-delimited-formats.md
+    - Data packages (DwC-A): formats/data-packages.md
+    - Geospatial formats: formats/geospatial-formats.md
+    - Essential biodiversity variables (EBVs): formats/ebvs.md
+    - Adhoc SQL: formats/sql.md
   - Community:
     - Overview: community/index.md
     - Tutorials: community/tutorials.md
@@ -61,5 +61,6 @@ theme:
 markdown_extensions:
   - codehilite
   - admonition
+  - pymdownx.details
   - toc:
       permalink: true

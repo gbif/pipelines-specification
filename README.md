@@ -19,6 +19,7 @@ Install the mkdocs, the material theme and any extensions needed:
 pip install mkdocs
 pip install mkdocs-material
 pip install pygments
+pip install pymdown-extensions
 ```
 
 Start the service:

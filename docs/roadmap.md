@@ -1,8 +1,8 @@
 
 !!! warning 
-    Data pipelines is a new project under development. Please see [the roadmap](roadmap) for progress.
+    Data pipelines is a new project under active development.
 
-## Data tables
+## Features
 
 | Sollicitudo / Pellentesi | consectetur | adipiscing | elit    | arcu | sed |
 | ------------------------ | ----------- | ---------- | ------- | ---- | --- |
@@ -18,6 +18,8 @@
 | Sed suscipit             | yes         | yes        | yes     | yes  | yes |
 | Orci non pretium         | yes         | partial    | -       | -    | -   |
 
-Sed sagittis eleifend rutrum. Donec vitae suscipit est. Nullam tempus tellus
-non sem sollicitudin, quis rutrum leo facilisis. Nulla tempor lobortis orci,
-at elementum urna sodales vitae. In in vehicula nulla, quis ornare libero.
+## Deployments
+
+
+## Governance
+
